@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary         # PostgreSQL driver
+python-jose[cryptography]  # JWT token signing and verification
+passlib[bcrypt]         # Password hashing (bcrypt)
+python-dotenv           # Load environment variables from .env
+pydantic
